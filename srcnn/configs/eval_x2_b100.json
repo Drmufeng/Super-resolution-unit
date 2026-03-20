@@ -1,0 +1,10 @@
+{
+  "data": {"scaling_factor": 2},
+  "model": {"large_kernel_size_g": 9, "small_kernel_size_g": 3, "n_channels_g": 64, "n_blocks_g": 16},
+  "eval": {
+    "checkpoint": "./checkpoints/x2/srgan_x2_best.pth",
+    "lr_folder": "./test/B100/LR_bicubic",
+    "hr_folder": "./test/B100/HR",
+    "output_folder": "./outputs/x2/B100"
+  }
+}

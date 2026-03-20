@@ -1,0 +1,44 @@
+{
+  "data": {"data_folder": "./data", "crop_size": 128, "scaling_factor": 4},
+  "model": {
+    "large_kernel_size_g": 9,
+    "small_kernel_size_g": 3,
+    "n_channels_g": 64,
+    "n_blocks_g": 16,
+    "small_kernel_size_d": 3,
+    "n_channels_d": 64,
+    "n_blocks_d": 8,
+    "fc_size_d": 1024
+  },
+  "train": {
+    "stage": "pretrain",
+    "batch_size": 8,
+    "start_epoch": 1,
+    "epochs": 100,
+    "workers": 0,
+    "lr_g": 0.0002,
+    "lr_d": 0.0001,
+    "lr_step": 30,
+    "lr_gamma": 0.5,
+    "pin_memory": true,
+    "print_every": 20,
+    "save_every": 20,
+    "keep_last": 8,
+    "resume_checkpoint": "",
+    "init_checkpoint": ""
+  },
+  "loss": {"l1_weight": 0.1, "mse_weight": 0.9, "adv_weight": 0.0},
+  "checkpoint_prefix": "srresnet_x4",
+  "save_dir": "./checkpoints/srresnet_x4",
+  "backup_dir": "./checkpoints_backup/srresnet_x4",
+  "log_dir": "./runs/srresnet_x4",
+  "csv_log": "./runs/srresnet_x4/train_metrics.csv",
+  "monitor": {
+    "every": 2,
+    "target_psnr": 28.0,
+    "patience": 100,
+    "min_delta": 0.0003,
+    "eval_config": "./configs/eval_x4_set14.json",
+    "csv_log": "./runs/srresnet_x4/val_metrics.csv"
+  }
+}

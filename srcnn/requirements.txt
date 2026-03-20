@@ -1,0 +1,9 @@
+torch
+torchvision
+torchmetrics
+tensorboard
+pillow
+einops
+matplotlib
+opencv-python
+tqdm

@@ -1,0 +1,10 @@
+{
+  "data": {"scaling_factor": 4},
+  "model": {"large_kernel_size_g": 9, "small_kernel_size_g": 3, "n_channels_g": 64, "n_blocks_g": 16},
+  "eval": {
+    "checkpoint": "./checkpoints/x4/srgan_x4_best.pth",
+    "lr_folder": "./test/Urban100/LR_bicubic_x4",
+    "hr_folder": "./test/Urban100/HR",
+    "output_folder": "./outputs/x4/Urban100"
+  }
+}

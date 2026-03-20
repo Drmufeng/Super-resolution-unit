@@ -1,0 +1,13 @@
+workspace,config,status,returncode,count,avg_psnr,avg_ssim,seconds,message
+sr30_workspace,configs\eval_x2_set14_edsr.json,ok,0,14,29.4553,0.8730,8.78,
+sr30_workspace,configs\eval_x2_b100_edsr.json,ok,0,100,26.5443,0.8139,14.5,
+sr30_workspace,configs\eval_x2_urban100_edsr.json,ok,0,100,26.8977,0.8712,69.45,
+sr30_workspace,configs\eval_x4_set14_edsr.json,ok,0,14,25.0227,0.7002,4.92,
+sr30_workspace,configs\eval_x4_b100_edsr.json,ok,0,100,25.5177,0.7011,9.9,
+sr30_workspace,configs\eval_x4_urban100_edsr.json,ok,0,100,22.2769,0.6846,32.84,
+srcnn,configs\eval_x2_set14.json,ok,0,14,28.6494,0.8493,4.99,
+srcnn,configs\eval_x2_b100.json,ok,0,100,26.5886,0.8074,9.66,
+srcnn,configs\eval_x2_urban100.json,ok,0,100,26.0166,0.8432,33.71,
+srcnn,configs\eval_x4_set14.json,ok,0,14,24.6336,0.6775,4.84,
+srcnn,configs\eval_x4_b100.json,ok,0,100,25.2864,0.6840,8.76,
+srcnn,configs\eval_x4_urban100.json,ok,0,100,22.0183,0.6622,23.83,

@@ -1,0 +1,150 @@
+{
+  "generated_utc": "2026-03-14T20:45:28.895391+00:00",
+  "roots": [
+    "B:\\GAN\\srcnn\\checkpoints",
+    "B:\\GAN\\sr30_workspace\\checkpoints"
+  ],
+  "total": 104,
+  "ok": 0,
+  "corrupt_or_unloadable": 104,
+  "resume_ready": 0,
+  "init_ready": 0,
+  "errors_by_type": {
+    "MemoryError": 3,
+    "UnicodeDecodeError": 2,
+    "UnpicklingError": 92,
+    "ValueError": 7
+  },
+  "largest_files": [
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e100.pth",
+      "size_bytes": 305441895,
+      "modified_utc": "2026-03-14T19:58:18.736062+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\xa6'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e110.pth",
+      "size_bytes": 305441895,
+      "modified_utc": "2026-03-14T19:58:18.930463+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\xf3'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e120.pth",
+      "size_bytes": 305441895,
+      "modified_utc": "2026-03-14T19:58:19.115452+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnicodeDecodeError",
+      "error_message": "'utf-8' codec can't decode byte 0xf7 in position 0: invalid start byte",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e10.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:16.013294+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, ' '.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e20.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:16.485356+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\x10'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e30.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:16.997617+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\xf5'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e40.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:17.274503+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "unpickling stack underflow",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e50.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:17.530634+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\xb2'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e60.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:17.799940+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "invalid load key, '\\xed'.",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    },
+    {
+      "path": "B:\\GAN\\srcnn\\checkpoints\\x4\\srgan_x4_e70.pth",
+      "size_bytes": 305440037,
+      "modified_utc": "2026-03-14T19:58:18.083572+00:00",
+      "status": "corrupt_or_unloadable",
+      "error_type": "UnpicklingError",
+      "error_message": "could not find MARK",
+      "object_type": "",
+      "key_count": 0,
+      "keys_preview": "",
+      "resume_ready": false,
+      "init_ready": false
+    }
+  ]
+}

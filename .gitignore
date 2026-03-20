@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+
+# Local environments
+.venv_shared/
+.venv/
+**/.venv/
+**/.venv*/
+
+# IDE and editor
+.idea/
+**/.idea/
+.vscode/
+
+# Local cache and temp files
+_benchmark_cache/
+*.tmp
+
+# Model artifacts
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Large training outputs and datasets
+sr30_workspace/checkpoints/
+sr30_workspace/checkpoints_backup/
+sr30_workspace/runs/
+sr30_workspace/outputs/
+sr30_workspace/test/
+sr30_workspace/data/df2k/
+
+srcnn/checkpoints/
+srcnn/checkpoints_backup/
+srcnn/runs/
+srcnn/outputs/
+srcnn/test/
+srcnn/data/df2k/
+
+# Backup folders delivered with weights
+*模型备份/
