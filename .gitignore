@@ -25,6 +25,10 @@ _benchmark_cache/
 *.ckpt
 *.onnx
 
+# Keep published checkpoints under models/
+!models/
+!models/*.pth
+
 # Large training outputs and datasets
 sr30_workspace/checkpoints/
 sr30_workspace/checkpoints_backup/
