@@ -2,6 +2,16 @@
 
 <p align="center"><img src="docs/assets/retro-anime-banner.svg" alt="图像超分辨率训练与评测主题装饰" width="760"></p>
 
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3.10-3776AB?style=flat-square&logo=python&logoColor=white)](srcnn/requirements.txt)
+[![PyTorch](https://img.shields.io/badge/Framework-PyTorch-EE4C2C?style=flat-square)](sr30_workspace)
+[![License](https://img.shields.io/badge/License-MIT-2D8CFF?style=flat-square)](LICENSE)
+
+</div>
+
+## 项目介绍
+
 这是一个用于图像超分辨率训练和评测的 PyTorch 工程。项目支持 ×2、×4 放大，保留两条训练线：EDSR 以 PSNR/SSIM 为主要指标，SRResNet 先做像素级预训练，再交给 SRGAN 微调感知质量。
 
 仓库把数据索引、分阶段训练、断点续训、官方测试集评测、重建图像输出和报告生成放在同一套目录里。评测结果可以导出为 CSV、Markdown 或 DOCX，发布模型通过 Git LFS 管理。

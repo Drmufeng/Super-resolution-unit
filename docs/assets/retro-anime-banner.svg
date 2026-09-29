@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-labelledby="title desc">
-  <title id="title">图像超分辨率复古动画装饰</title>
-  <desc id="desc">像素画框、放大镜和带有星光的清晰图像组成的二次元横幅。</desc>
-  <rect x="8" y="8" width="744" height="164" rx="26" fill="#E8EEFF" stroke="#2F3B59" stroke-width="3"/>
-  <path d="M28 140 Q150 111 270 138 T510 135 T733 128" fill="none" stroke="#F2A28F" stroke-width="10" opacity=".55"/>
-  <path d="M28 145 Q150 116 270 143 T510 140 T733 133" fill="none" stroke="#8BC7B1" stroke-width="3" stroke-dasharray="5 9"/>
-  <g transform="translate(49 43)" stroke="#2F3B59" stroke-width="3" stroke-linejoin="round">
-    <rect x="0" y="0" width="128" height="83" rx="9" fill="#FFF6E7"/><path d="M13 65 L43 38 L64 55 L84 29 L116 65z" fill="#8BC7B1"/><circle cx="91" cy="24" r="9" fill="#F2A28F"/><path d="M13 75 H116" stroke="#F2A28F"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-labelledby="sr-title sr-desc">
+  <title id="sr-title">Super resolution training and evaluation workflow</title>
+  <desc id="sr-desc">A split pipeline showing EDSR and SRResNet to SRGAN training paths, benchmark images, and metrics.</desc>
+  <defs><marker id="sr-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8z" fill="#64748B"/></marker></defs>
+  <rect x="8" y="8" width="744" height="164" rx="12" fill="#F8FAFC" stroke="#CBD5E1"/>
+  <g fill="none" stroke="#94A3B8" stroke-width="2" marker-end="url(#sr-arrow)"><path d="M148 101H181"/><path d="M335 83H374"/><path d="M335 119H374"/><path d="M529 101H562"/></g>
+  <text x="28" y="34" fill="#0F172A" font-family="Arial,sans-serif" font-size="18" font-weight="700">SUPER-RESOLUTION ×2 / ×4</text>
+  <text x="28" y="54" fill="#64748B" font-family="Arial,sans-serif" font-size="11">train · benchmark · report</text>
+  <g font-family="Arial,sans-serif" font-size="10" fill="#0F172A">
+    <rect x="28" y="72" width="120" height="64" rx="8" fill="#F1F5F9" stroke="#94A3B8"/>
+    <rect x="45" y="87" width="34" height="28" fill="#CBD5E1" stroke="#475569" stroke-width="2"/><path d="M49 111l9-10 7 6 8-8" fill="none" stroke="#475569" stroke-width="2"/><text x="88" y="105">LR image</text>
+    <rect x="183" y="72" width="152" height="64" rx="8" fill="#EFF6FF" stroke="#93C5FD"/>
+    <path d="M201 105h115" stroke="#1D4ED8" stroke-width="2"/><rect x="214" y="81" width="88" height="18" rx="4" fill="#DBEAFE" stroke="#1D4ED8"/><text x="231" y="94">EDSR</text><rect x="214" y="109" width="88" height="18" rx="4" fill="#DBEAFE" stroke="#1D4ED8"/><text x="220" y="122">SRResNet → SRGAN</text>
+    <rect x="376" y="72" width="154" height="64" rx="8" fill="#ECFDF5" stroke="#86EFAC"/>
+    <rect x="397" y="84" width="44" height="34" fill="#A7F3D0" stroke="#047857" stroke-width="2"/><path d="M402 112l11-14 9 8 12-13" fill="none" stroke="#047857" stroke-width="2"/><path d="M458 91h50M458 102h38M458 113h45" stroke="#047857" stroke-width="3"/><text x="397" y="130">HR reconstruction</text>
+    <rect x="562" y="72" width="170" height="64" rx="8" fill="#FFF7ED" stroke="#FDBA74"/>
+    <path d="M580 112l13-18 13 12 14-22 28 28" fill="none" stroke="#C2410C" stroke-width="3"/><text x="653" y="97">PSNR</text><text x="653" y="112">SSIM</text><text x="580" y="130">Set14 · B100 · Urban100</text>
   </g>
-  <g transform="translate(250 38)" stroke="#2F3B59" stroke-width="3" stroke-linejoin="round">
-    <circle cx="55" cy="43" r="35" fill="#FFF6E7"/><path d="M80 68 L118 106" fill="none" stroke-width="12" stroke-linecap="round"/><path d="M38 43 Q55 22 72 43 Q55 64 38 43z" fill="#F2A28F"/><circle cx="55" cy="43" r="9" fill="#8BC7B1"/>
-    <path d="M55 1 V14 M55 72 V85 M13 43 H26 M84 43 H97" stroke="#F2A28F"/>
-  </g>
-  <g transform="translate(560 39)" stroke="#2F3B59" stroke-width="3" stroke-linejoin="round">
-    <path d="M0 61 L25 38 L43 52 L62 23 L100 61 V91 H0z" fill="#8BC7B1"/><circle cx="71" cy="30" r="10" fill="#F2A28F"/><path d="M-10 102 H111" fill="none"/><path d="M16 10 l5 10 11 2-8 8 2 11-10-5-10 5 2-11-8-8 11-2z" fill="#F2C35A"/>
-  </g>
-  <text x="392" y="124" fill="#2F3B59" font-size="21" font-family="cursive" font-weight="700">SR ×2 ×4</text>
-  <text x="390" y="147" fill="#2F3B59" font-size="13" font-family="sans-serif">EDSR · SRRESNET · SRGAN</text>
 </svg>
